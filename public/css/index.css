@@ -1,0 +1,68 @@
+.navbar-icon {
+	width: 35px; 
+	height: 35px;
+	line-height: 35px;
+}
+
+.panels-icon {
+	width: 50px; 
+	height: 50px; 
+	line-height: 50px;
+}
+
+.section-padding {
+	padding-top: 90px;
+}
+
+.profile-image {
+	width: 70px;
+	height: 70px;
+}
+
+.upload-section {
+	height: 140px;
+}
+
+.backend-sidebar {
+	width: 24vw;
+	z-index: 99999;
+	top: 0;
+	bottom: 0;
+	-webkit-transition: 0.8s;
+	-o-transition: 0.8s;
+	transition: 0.8s;
+	right: -100%;
+}
+
+.backend-sidebar-toggle {
+	right: 0;
+	-webkit-transition: 0.8s;
+	-o-transition: 0.8s;
+	transition: 0.8s;
+}
+
+.backend-sidebar .backend-sidebar-list {
+	overflow-y: scroll;
+	max-height: 100vh;
+	padding-top: 85px !important;
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.backend-sidebar .backend-sidebar-list::-webkit-scrollbar {
+	display: none;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.backend-sidebar {
+	    width: 100vw;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+	.backend-sidebar {
+	    width: 40vw;
+	}
+}
+

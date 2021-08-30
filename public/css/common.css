@@ -1,0 +1,95 @@
+:root {
+    --msugreen: #003D32;
+    --alabaster: #F1F1E6;
+    --pumpkin: #EE701B;
+    --skyblue: #1ABD9C;
+    --babypowder: #FFFCF9;
+    --aeroblue: #C5FCEF;
+}
+
+.disable { 
+    opacity: .4;
+    cursor: default !important;
+    pointer-events: none;
+}
+
+p {
+    font-size: 22px !important;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: serif;
+}
+
+.bg-skyblue {
+    background-color: var(--skyblue);
+}
+
+.bg-pumpkin {
+    background-color: var(--pumpkin);
+}
+
+
+*:focus {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+}
+
+.border-raduis-lg {
+    border-radius: 17.5px !important;
+}
+
+.border-raduis-sm {
+    border-radius: 14px !important;
+}
+
+.pagination-link {
+    height: 25px !important;
+    width: 25px !important;
+    line-height: 24px;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.center-absolute {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+/** Customize Switch */
+
+.form-switch .form-check-input {
+    cursor: pointer !important;
+}
+
+.form-check-input:checked {
+    background-color: #198754 !important; /* bootstrap bg-success  */
+    border: none !important;
+}
+
